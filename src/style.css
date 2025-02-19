@@ -1,0 +1,134 @@
+body{
+    font-family: 'Poppins',sans-serif;
+    background-color: #6A8FFB1A;    
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1030;
+}
+#sidebar{
+    position: fixed;
+    top: 50px;
+    left: 0;
+    width: 16%;
+    height: 100vh;
+    padding-left: 3px;
+    margin-top: 20px;
+    z-index: 1020;
+    float: left;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+
+}
+#mainsection{
+    margin-top: 80px;
+    margin-left: 250px;
+    width:calc(100vh- 16%) ;
+    overflow-y: auto;
+    padding-top: 20px; 
+    padding-left: 20px;
+    padding-right: 15px; 
+    /* border: 1px solid red; */
+}
+
+li{
+    color: black;
+}
+.line{
+    margin-left: 32px;
+    margin-right: 33px;
+    height: 23px;
+}
+
+#adminimage{
+    margin-right: 10px;
+}
+#imgj{
+    margin-left: 18.5px;
+}
+#herotext{
+    margin-left: 132px;
+    padding-top: 18px;
+
+}
+.delete:hover{
+    color:rgb(185, 0, 0);
+}
+#frontsection{
+    width: 98%;
+}
+
+#formats{
+  
+    border: 1px solid #dee2e6;
+    border-bottom: none;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#formats span{
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#lorem10:hover {
+    cursor: pointer;
+     
+
+}
+#custom-text{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+img, svg {
+    vertical-align: middle;
+}
+.uploadcv{
+    border: 1px dashed #dee2e6;
+    border-radius: 0.375rem;
+    
+}
+.uploadcv:hover{
+    border: 1px dashed #0d6efd;
+    cursor: pointer;
+}
+#yui{
+    color: #ffffff;
+    background-color: #ffffff;
+}
+
+@media screen and (max-width:1200px ){
+    #mainsection{
+        width: 100%;
+        margin:auto; 
+        margin-top: 50px;
+        padding: 0;    
+    }
+    .navbar{
+        margin-bottom: 5px;
+    }
+   
+}
+/* @media screen and (max-width:1118px ){
+    #mainsection{
+        width: 90%;
+        margin:auto; 
+        margin-top: 30px;
+        padding-top: 20px;
+    
+    }
+    .navbar{
+        margin-bottom: 5px;
+    }
+
+} */
+
+.fontsize{
+    font-size: 14px;
+}
