@@ -112,23 +112,18 @@ img, svg {
     }
     .navbar{
         margin-bottom: 5px;
+
     }
+    
    
 }
-/* @media screen and (max-width:1118px ){
-    #mainsection{
-        width: 90%;
-        margin:auto; 
-        margin-top: 30px;
-        padding-top: 20px;
-    
-    }
-    .navbar{
-        margin-bottom: 5px;
-    }
-
-} */
 
 .fontsize{
     font-size: 14px;
 }
+
+
+
+
+
+
